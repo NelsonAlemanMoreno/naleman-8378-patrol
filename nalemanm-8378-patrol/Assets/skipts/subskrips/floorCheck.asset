@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: floorCheck
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":29.0,"y":30.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-250.0,"y":-30.0},"guid":"50baf16a-8ff1-43d7-a9ec-5d9ba24bc0f6","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":394.0,"y":-28.0},"guid":"3df5f647-2e2a-4a18-9cd1-695cb2b42702","$version":"A","$type":"Unity.VisualScripting.GraphOutput"},{"chainable":false,"parameterNames":["position","radius","layerMask","queryTriggerInteraction"],"member":{"name":"CheckSphere","parameterTypes":["UnityEngine.Vector3","System.Single","System.Int32","UnityEngine.QueryTriggerInteraction"],"targetType":"UnityEngine.Physics","targetTypeName":"UnityEngine.Physics","$version":"A"},"defaultValues":{"%position":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%radius":{"$content":0.0,"$type":"System.Single"},"%layerMask":{"$content":0,"$type":"System.Int32"},"%queryTriggerInteraction":{"$content":"UseGlobal","$type":"UnityEngine.QueryTriggerInteraction"}},"position":{"x":41.0,"y":-59.0},"guid":"c657c003-8dc9-4b8e-972e-83afc0a0038c","$version":"A","$type":"Unity.VisualScripting.InvokeMember"}],"$version":"A"}}'
+    _objectReferences: []
